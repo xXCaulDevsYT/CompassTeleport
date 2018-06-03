@@ -1,0 +1,35 @@
+---
+#The worlds where the players will be able to use the compass to choose a gamemode
+worlds:
+  - lobby
+  - lobby2
+#The custom name given to the compass
+item-name: "§2Teleporter"
+#The title of the form, showed at the top of it
+title: "§2Teleporter"
+#The content of the form, usually a descriptive line of what the form does
+content: "§aChoose a gamemode!"
+#buttons configuration.
+buttons:
+    0:
+      #Values: true/false. If you want the button to have an image, choose "true"
+      hasimage: true
+      #Choose a text to assign to your button
+      text: "§4Factions"
+      #Choose the image type. Available: url, path
+      imagetype: "url"
+      #Select the path where the image is. If the image type is "url", you must specify the url to the image, otherwise, give the full path to the image
+      path: "https://i.imgur.com/4qMeJLj.png"
+      #The name of the world where the player will be teleported
+      level: "factions"
+    1:
+      hasimage: true
+      text: "§5PvP"
+      imagetype: "path"
+      path: "/root/images/example.png"
+      level: "pvp"
+    2:
+      hasimage: false
+      text: "§6Creative"
+      level: "plotworld"
+...

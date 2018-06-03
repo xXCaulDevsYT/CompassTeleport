@@ -1,0 +1,6 @@
+name: CompassTeleport
+author: Fycarman
+version: 1.0
+api: 3.0.0-ALPHA12
+main: CompassTeleport\Main
+description: "Show a menu when the compass is clicked!"
