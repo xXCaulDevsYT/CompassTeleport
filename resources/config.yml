@@ -15,7 +15,7 @@ buttons:
       #Values: true/false. If you want the button to have an image, choose "true"
       hasimage: true
       #Choose a text to assign to your button
-      text: "§4Factions"
+      text: "§4Shop"
       #Choose the image type. Available: url, path
       imagetype: "url"
       #Select the path where the image is. If the image type is "url", you must specify the url to the image, otherwise, give the full path to the image
@@ -30,6 +30,6 @@ buttons:
       level: "pvp"
     2:
       hasimage: false
-      text: "§6Creative"
+      text: "§6Plots"
       level: "plotworld"
 ...
